@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css//index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Imgur</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div>
+            <img src="https://www.vectorlogo.zone/logos/imgur/imgur-ar21.svg" alt="logo">
+        </div>
+        <div class="search">
+            <div>
+                <input type="text" id = "search" placeholder="Images, #tags, @users oh my!" value = "">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+            <div>
+                <i class="fa fa-bookmark-o" aria-hidden="true"></i>
+                <button>Go Ad-Free</button>
+                <button>Sign In</button>
+                <button>Sign Up</button>
+            </div>
+        </div>
+    </div>
+    <!-- Images -->
+    <div id="image_div" class="image_div">
+        <div id="first_div"></div>
+        <div id="second_div"></div>
+        <div id="third_div"></div>
+    </div>
+</body>
+<script src="./javascript/fetchImages.js"></script>
+</html>
