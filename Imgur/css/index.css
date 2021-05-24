@@ -116,7 +116,7 @@ button{
 }
 .image_box{
     width: fit-content;
-    max-width: 330px;
+    max-width: 250px;
     margin: 10px;
     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 40%);
     transition: filter .5s;
